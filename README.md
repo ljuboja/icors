@@ -1,0 +1,4 @@
+icors
+=====
+
+theme ico
