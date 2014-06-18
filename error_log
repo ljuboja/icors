@@ -1,0 +1,3 @@
+[22-Jan-2014 12:47:10 Europe/Berlin] PHP Fatal error:  Call to undefined function get_header() in /home/icors/public_html/wp-content/themes/unspoken/404.php on line 1
+[22-Jan-2014 18:46:19 Europe/Berlin] PHP Fatal error:  Call to undefined function get_header() in /home/icors/public_html/wp-content/themes/unspoken/404.php on line 1
+[29-Jan-2014 13:14:56 Europe/Berlin] PHP Fatal error:  Call to undefined function get_header() in /home/icors/public_html/wp-content/themes/unspoken/index.php on line 1
