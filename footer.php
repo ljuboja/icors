@@ -58,7 +58,6 @@
         </div> <!-- .wrapper -->
 
         <?php wp_footer(); ?>
-        <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" media="all" />
 
         <?php echo (get_option('unspoken_ga')) ? get_option('unspoken_ga') : ''; ?>
 
@@ -70,6 +69,7 @@
     });
   });
 </script>
+<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" media="all" />
 
 	</body>
 </html>
