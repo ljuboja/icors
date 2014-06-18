@@ -1,5 +1,5 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}
-body{background-color:;line-height:1;text-align:left;font:62.5% Georgia, Times New Roman, Serif;background:#f9f9f9 url(images/bg.png) 0 0 repeat}
+body{background-color:#f9f9f9;line-height:1;text-align:left;font:62.5% Georgia, Times New Roman, Serif;background:#f9f9f9 url(images/bg.png) 0 0 repeat}
 ol,ul{list-style:none}
 blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:none}
@@ -17,7 +17,7 @@ table{border-collapse:collapse;border-spacing:0}
 #content{width:620px;float:left;padding-right:9px}
 #sidebar{width:300px;float:right;padding-left:10px}
 .header-meta{background-color:#f6f6f8;height:40px;background:#fffff8 url(images/bg2.png) 0 0 repeat;margin-bottom:20px;border-radius:0 0 2px 2px;-moz-border-radius:0 0 2px 2px;-webkit-border-radius:0 0 2px 2px}
-#top-menu{width:770px;height:40px;float:left}
+#top-menu{width:770px;height:90px;float:left}
 #top-menu ul li{font-size:12px;position:relative;z-index:3;float:left;border-left:1px solid #e6e6e7;margin:12px 0;padding:0 15px}
 #top-menu ul li a{color:#3D3239;margin:12px 0}
 #top-menu ul li.parent a{background:url(images/menu-parent.png) 100% 3px no-repeat;padding-right:15px}
