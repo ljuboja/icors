@@ -14,5 +14,5 @@ wp-config.php
 node_modules/
 dploy.yaml
 Gruntfile.js
-dist/
+
 package.json
