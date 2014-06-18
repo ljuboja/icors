@@ -84,7 +84,7 @@ a img,#top-menu ul li.first{border:none}
 #menu-item-17862 a{color:white;}
 
         </style>
-        <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" media="all" />
+        
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <?php if ( get_option('unspoken_favicon') ) echo '<link rel="shortcut icon" href="' . get_option('unspoken_favicon') . '" type="image/x-icon" />'; ?>
 		
