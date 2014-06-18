@@ -102,8 +102,9 @@ a img,#top-menu ul li.first{border:none}
 
         <?php
 			wp_enqueue_script( 'jquery' );
+            wp_enqueue_script( 'script', get_template_directory_uri() . '/lib/js/jsmini.min.js', 'jquery', false );
             //wp_enqueue_script( 'jcarousellite', get_template_directory_uri() . '/lib/js/jcarousellite_1.0.1_mod.js', 'jquery', false );
-            //wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/lib/js/fancybox/jquery.fancybox-1.3.4.pack.js', 'jquery', false );
+            wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/lib/js/fancybox/jquery.fancybox-1.3.4.pack.js', 'jquery', false );
             //wp_enqueue_script( 'script', get_template_directory_uri() . '/lib/js/scripts.js', 'jquery', false );
             wp_enqueue_script( 'script', get_template_directory_uri() . '/lib/js/jsmini.min.js', 'jquery', false );
             //if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' );
