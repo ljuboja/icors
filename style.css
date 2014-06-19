@@ -50,8 +50,8 @@ table{border-collapse:collapse;border-spacing:0}
 #navigation ul.sub-menu li.parent > a{background:url(images/menu-parent2.png) 100% 11px no-repeat!important;padding-right:15px}
 #navigation ul.sub-menu ul{background-color:#3d3239;border-radius:0 3px 3px 3px;-moz-border-radius:0 3px 3px;-webkit-border-radius:0 3px 3px 3px}
 .block-title{font-size:18px;font-weight:400;height:34px;line-height:34px;color:#3d3239;border-top:2px solid #DC881D;border-bottom:1px solid #e8dfd4}
-.block-title a{color:#3d3239;padding-right:15px;background:url(images/link-arrow.png) 100% 6px no-repeat}
-.block-title a:hover{color:#f86b11;background-position:100% -26px}
+.block-title a{color:#444; font-weight:bold;padding-right:15px;background:url(images/link-arrow.png) 100% 6px no-repeat}
+.block-title a:hover{color:#black;background-position:100% -26px}
 .block-title2{font-size:16px;font-weight:400;color:#444;padding-bottom:6px;border-bottom:1px solid #fff}
 .latest{padding-bottom:30px}
 .slider{background-color:whitesmoke;width:360px;float:left;padding:10px 10px 20px}
