@@ -133,7 +133,7 @@
     <div class="clear"></div>
 
     <?php comments_template(); ?>
-	<p class="warning">Radio Odžaci zadržavaju pravo da ne objave komentare ili delove komentara koji sadrže uvrede, nepristojan govor, svaki oblik netolerancije ili stavove u kojima se propagira rasna, verska, nacionalna ili polna diskriminacija. Stavovi izneti u komentarima su lični stavovi autora komentara, a ne redakcije Radio Odžaka. Komentari u kojima ukazujete na slovne ili neke druge tehničke greške u vezi objavljenog teksta ili slike biće prosleđeni redakciji koja će ih razmotriti, ali takvi komentari neće biti objavljeni. Unapred vam se zahvaljujemo na svim komentarima.</p>
+	<!-- <p class="warning">Radio Odžaci zadržavaju pravo da ne objave komentare ili delove komentara koji sadrže uvrede, nepristojan govor, svaki oblik netolerancije ili stavove u kojima se propagira rasna, verska, nacionalna ili polna diskriminacija. Stavovi izneti u komentarima su lični stavovi autora komentara, a ne redakcije Radio Odžaka. Komentari u kojima ukazujete na slovne ili neke druge tehničke greške u vezi objavljenog teksta ili slike biće prosleđeni redakciji koja će ih razmotriti, ali takvi komentari neće biti objavljeni. Unapred vam se zahvaljujemo na svim komentarima.</p> -->
 
 </div> <!-- .single -->
 
