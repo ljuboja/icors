@@ -62,7 +62,7 @@ table{border-collapse:collapse;border-spacing:0}
 .slider-inn li{width:360px;float:left}
 .slider-item{width:360px;padding-top:10px}
 .slider-item-meta{color:orange;font-size:12px;margin-bottom:3px}
-.slider-item h2{color:#444;font-size:21px;margin-bottom:5px}
+.slider-item h2{color:#444;font-size:2.4em;margin-bottom:5px}
 .slider-item p{color:#444;font-size:1.4em; line-height: 1.4em}
 .latest-news{width:220px;float:right;padding-top:10px}
 .latest-news .block-title{border-top:none;height:auto;line-height:normal;padding-bottom:6px}
@@ -377,7 +377,7 @@ a img,#top-menu ul li.first,.top-content-adplace .unspoken-banner:hover{border:n
 .slider-item-meta a,.slider-item h2 a,.choice-item h2 a,.choice-cat a,.mainpost-data,.mainpost-data a,.footer-tags{color:#444}
 .slider-item-meta a:hover,.slider-item h2 a:hover,.choice-item h2 a:hover,.choice-cat a:hover,.hentry-thumb-meta a:hover,.mainpost-meta a:hover,.mainpost-data h2 a:hover{color:black;}
 .latest-news-meta a,.category-item-meta a,.category-list-meta a,.video-item-meta a,.loop .hentry .post-meta a,.hentry-thumb-meta a{color:#968268}
-.latest-news-title,.category-list-title,.single .hentry-navigation a span{font-size:12px;font-weight:400}
+.latest-news-title,.category-list-title,.single .hentry-navigation a span{font-size:1.4em;font-weight:400}
 .latest-news-title a,.category-list-title a,.catlist-item a,.single .hentry-meta a,.hentry-content a,.single .hentry-footer a,.single .hentry-sidebar a,.page .hentry-meta a,.page .hentry-content a,.wp-pagenavi a,.comment-meta a,.navigation a,#respond a,.comment-text a,.widget a,.unspoken-twitter .tweet-text a,#wp-calendar a,.textwidget a,.unspoken-adplace a,.error404 a,#contactform .message a,.footer-linkset a,.copyrights a,.credits a{color:#444;font-weight: 700}
 .category-item-meta,.category-list-meta,.video-item-meta{color:orange;font-size:10px;margin-bottom:3px}
 .category-item h2 a,.video-item h2 a,.loop .hentry a{color:#3d3239}
