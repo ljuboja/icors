@@ -70,6 +70,27 @@
   });
 </script>
 
+ <script type="text/javascript">
+ // grab an element
+var myElement = document.querySelector("#navigation");
+// construct an instance of Headroom, passing the element
+var headroom  = new Headroom(myElement, 
+
+{
+  "tolerance": 17,
+  "offset": 221,
+  "classes": {
+    "initial": "animated",
+    "pinned": "slideDown",
+    "unpinned": "slideUp",
+    "top": "headroom--top",
+    "notTop": "headroom--not-top"
+  }
+    });
+// initialise
+headroom.init();
+        
+</script>
 
 	</body>
 </html>
