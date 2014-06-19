@@ -34,39 +34,16 @@
 
         <?php
 			wp_enqueue_script( 'jquery' );
-            wp_enqueue_script( 'script', get_template_directory_uri() . '/lib/js/headroom.js', 'jquery', false );
-            wp_enqueue_script( 'script', get_template_directory_uri() . '/lib/js/jsmini.min.js', 'jquery', false );
-            //wp_enqueue_script( 'jcarousellite', get_template_directory_uri() . '/lib/js/jcarousellite_1.0.1_mod.js', 'jquery', false );
+            wp_enqueue_script( 'jcarousellite', get_template_directory_uri() . '/lib/js/jcarousellite_1.0.1_mod.js', 'jquery', false );
             wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/lib/js/fancybox/jquery.fancybox-1.3.4.pack.js', 'jquery', false );
-            //wp_enqueue_script( 'script', get_template_directory_uri() . '/lib/js/scripts.js', 'jquery', false );
-            wp_enqueue_script( 'script', get_template_directory_uri() . '/lib/js/jsmini.min.js', 'jquery', false );
-
-            //if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' );
+            wp_enqueue_script( 'script', get_template_directory_uri() . '/lib/js/scripts.js', 'jquery', false );
+            if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' );
             if ( get_option('unspoken_pagination_mode') == 3 ) wp_enqueue_script( 'infinitescroll_init', get_template_directory_uri() . '/lib/js/jquery.infinitescroll.init.js', 'jquery', false );
+            wp_enqueue_script( 'headroom', get_template_directory_uri() . '/lib/js/headroom.js', 'jquery', false );
 
             wp_head();
 
-            if ( is_home() ) { ?>
-                // <script type="text/javascript">
-                //     jQuery(document).ready(function() {
-                //         jQuery('.videolist-inn').jCarouselLite({
-                //             btnNext: ".videolist .next",
-                //             btnPrev: ".videolist .prev",
-                //             visible: <?php echo get_option('unspoken_video_visible'); ?>,
-                //             scroll: 1,
-                //             vertical: true
-                //         });
-                //         jQuery('.videolist-inn li a').click(function(){
-                //             jQuery('.videolist-inn li a').removeClass('active');
-                //             jQuery(this).addClass('active');
-                //             var vsel = jQuery(this).attr('rev');
-                //             jQuery('.video-item.active').removeClass('active');
-                //             jQuery('.video-item.' + vsel).addClass('active');
-                //         });
-                //     });
-                // </script>
-                <?php
-            }
+     
             if ( is_page_template( 'template-magazine.php' ) ) { ?>
                 <script type="text/javascript">
                     jQuery(document).ready(function() {
@@ -79,24 +56,10 @@
             }
            //if ( get_option('unspoken_styles') ) echo '<style type="text/css">' . get_option('unspoken_styles') . '</style>';
             ?>
+       
 
 
-<script language="JavaScript">
 
-function popUp(URL) {
-eval("page" + id + " = window.open(URL, '" + id + "', '
-toolbar=1,
-scrollbars=1,
-location=1,
-statusbar=1,
-menubar=1,
-resizable=1,
-width=500,
-height=500,
-left = 390,
-top = 150');");
-}
-</script>
 <!--<script type='text/javascript' src='http://www.ico.rs/wp-content/themes/unspoken/lib/js/marq.js'></script>-->
 <!--<script language="JavaScript">
 $('marquee').marquee(optionalClass);

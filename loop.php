@@ -6,7 +6,7 @@
             $postedon_data = array(
                 'date' => get_option('unspoken_postedon_date'),
                 'category' => get_option('unspoken_postedon_cat'),
-                //'comment' => get_option('unspoken_postedon_comm'),
+                'comment' => get_option('unspoken_postedon_comm'),
                 'author' => get_option('unspoken_postedon_author')
             );
             $i = 0;

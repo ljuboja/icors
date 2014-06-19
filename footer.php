@@ -61,14 +61,7 @@
 
         <?php echo (get_option('unspoken_ga')) ? get_option('unspoken_ga') : ''; ?>
 
-        <script type="text/javascript">
-  $(document).ready( function() {
-    $('a[@href^="http://"]').click( function() {
-        pageTracker._trackPageview('/outgoing/' + $(this).attr('href'));
-        return true;
-    });
-  });
-</script>
+      
 
  <script type="text/javascript">
  // grab an element
@@ -77,7 +70,7 @@ var myElement = document.querySelector("#navigation");
 var headroom  = new Headroom(myElement, 
 
 {
-  "tolerance": 17,
+  "tolerance": 10,
   "offset": 221,
   "classes": {
     "initial": "animated",
@@ -91,6 +84,7 @@ var headroom  = new Headroom(myElement,
 headroom.init();
         
 </script>
+
 
 	</body>
 </html>

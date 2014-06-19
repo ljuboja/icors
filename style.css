@@ -57,7 +57,7 @@ table{border-collapse:collapse;border-spacing:0}
 .block-title a:hover{color:#black;background-position:100% -26px}
 .block-title2{font-size:16px;font-weight:400;color:#444;padding-bottom:6px;border-bottom:1px solid #fff}
 .latest{padding-bottom:30px}
-.slider{background-color:whitesmoke;width:360px;float:left;padding:10px 10px 20px}
+.slider{background-color:whitesmoke;width:360px;float:left;padding:10px 10px 20px;}
 .slider .block-title2 a.prev{background:#d57a2c url(images/arrows.png) 5px 50% no-repeat;right:19px;border-radius:3px 0 0 3px;-moz-border-radius:3px 0 0 3px;-webkit-border-radius:3px 0 0 3px}
 .slider .block-title2 a.next{background:#d57a2c url(images/arrows.png) -28px 50% no-repeat;right:0;border-radius:0 3px 3px 0;-moz-border-radius:0 3px 3px 0;-webkit-border-radius:0 3px 3px 0}
 .slider .block-title2 a.next:hover,.slider .block-title2 a.prev:hover{background-color:#d94b00}
