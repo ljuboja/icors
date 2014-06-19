@@ -111,7 +111,7 @@ table{border-collapse:collapse;border-spacing:0}
 .single .hentry-content embed,.post .hentry-content object{max-width:460px;display:block}
 .single .hentry-content img{max-width:460px}
 .single .hentry-content .wp-caption{max-width:460px!important}
-.hentry-content{font-size:13px;line-height:1.5;color:#3d3239;padding-top:15px}
+.hentry-content{font-size:1.5em;line-height:1.5;color:#444;padding-top:15px}
 .hentry-content h1{font-size:30px}
 .hentry-content h2{font-size:26px}
 .hentry-content h3{font-size:22px}
