@@ -193,9 +193,9 @@ table{border-collapse:collapse;border-spacing:0}
 #mode{display:block;width:35px;height:14px;background:url(images/mode.png) 0 0 no-repeat;position:absolute;bottom:13px;right:0;overflow:hidden}
 #mode.flip{background-position:0 -14px!important}
 .loop{width:620px;overflow:hidden;position:relative;margin-bottom:30px}
-.loop .hentry .post-meta{font-size:11px;color:#968268;margin-bottom:3px}
-.loop .hentry h2{font-size:18px;font-weight:400;color:#3d3239;margin-bottom:5px}
-.loop .hentry p{font-size:12px;line-height:1.3;color:#3d3239}
+.loop .hentry .post-meta{font-size:12px;color:orange;margin-bottom:4px}
+.loop .hentry h2{font-size:1.9em;font-weight:700;color:#444;margin-bottom:8px}
+.loop .hentry p{font-size:1.4em;line-height:1.4;color:#444: margin-top15px;}
 .list .hentry{width:620px;border-top:1px solid #e8dfd4;float:none;padding:20px 0}
 .list .hentry .post-thumb img{display:block;width:300px;height:180px;float:left;margin:0 20px 0 0}
 .grid .hentry{width:300px;border-top:1px solid #e8dfd4;margin-right:20px;float:left;padding:20px 0}
@@ -383,7 +383,7 @@ a img,#top-menu ul li.first,.top-content-adplace .unspoken-banner:hover{border:n
 .latest-news-title,.category-list-title,.single .hentry-navigation a span{font-size:1.4em;font-weight:400}
 .latest-news-title a,.category-list-title a,.catlist-item a,.single .hentry-meta a,.hentry-content a,.single .hentry-footer a,.single .hentry-sidebar a,.page .hentry-meta a,.page .hentry-content a,.wp-pagenavi a,.comment-meta a,.navigation a,#respond a,.comment-text a,.widget a,.unspoken-twitter .tweet-text a,#wp-calendar a,.textwidget a,.unspoken-adplace a,.error404 a,#contactform .message a,.footer-linkset a,.copyrights a,.credits a{color:#444;font-weight: 700}
 .category-item-meta,.category-list-meta,.video-item-meta{color:orange;font-size:10px;margin-bottom:3px}
-.category-item h2 a,.video-item h2 a,.loop .hentry a{color:#3d3239}
+.category-item h2 a,.video-item h2 a,.loop .hentry a{color:#444}
 .categories-inn,#loop,.page-template-template-gallery-php .gallery,.page-template-template-tags-php .hentry-content .tags{width:640px}
 .catlist,.page-template-template-tags-php .hentry-content .column{width:140px;float:left;margin-right:20px}
 .catlist-item-date,.recommended-item p{font-size:10px;color:#968268;margin-bottom:3px}
