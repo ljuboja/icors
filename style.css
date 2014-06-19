@@ -327,7 +327,7 @@ a.rsswidget img{vertical-align:-1px}
 .bottom-widgetarea{margin-bottom:20px;width:940px;overflow:hidden}
 .bottom-widgetarea-inn{width:960px}
 .bottom-widgetarea .widget{float:left;margin-right:20px}
-.footer{background-color:#4B3E34;background:#3d3239 url(images/bg2.png) 0 0 repeat;border-bottom:1px solid #e8dfd4;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;padding:10px 0}
+.footer{background-color:whitesmoke;border-bottom:1px solid #e8dfd4;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;padding:10px 0}
 .menu-footer{border-bottom:1px solid #E8DFD4;border-top:2px solid #DC881D;margin-bottom:20px}
 .menu-footer ul li{float:left;font-size:16px;font-weight:400;margin:0 10px 0 -10px;padding:12px 10px}
 .menu-footer ul li a{color:#3D3239}
@@ -340,7 +340,7 @@ a.rsswidget img{vertical-align:-1px}
 .footer-searchform input{width:405px;font-size:16px;font-weight:400;color:#3d3239;border:1px solid #e8dfd4;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;margin:0;padding:4px 5px}
 .footer-tags p{font-size:12px;font-weight:400;color:#3D3239;margin-bottom:5px}
 .footer-tags a{font-size:11px;color:#DC881D}
-.footer-linkset{width:124px;float:left;border-left:1px solid #E8DFD4;font-size:12px;padding:0 10px 10px}
+.footer-linkset{width:200px;float:left;border-left:1px solid #E8DFD4;font-size:12px;padding:53px 30px 10px}
 .copyrights{width:775px;float:left;font-size:11px;color:#3d3239;padding:18px 0}
 .credits{width:145px;float:right;text-align:right;font-size:11px;color:#3d3239;padding:18px 0}
 #voodoo-reg{width:960px;padding-bottom:3px;margin:0 auto}
