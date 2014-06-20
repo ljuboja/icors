@@ -106,7 +106,7 @@ table{border-collapse:collapse;border-spacing:0}
 .videolist-play.active{background-image:url(images/videolist-play-active.png)}*/
 .single .hentry-content{width:460px;overflow:hidden}
 .single .hentry-meta{padding-bottom:15px;border-bottom:2px solid #DC881D;margin-bottom:5px}
-.single .hentry-meta h1{color:#3d3239;font-size:30px;line-height:33px;font-weight:400;padding-bottom:10px}
+.single .hentry-meta h1{color:#444;font-size:2.9em;line-height:33px;font-weight:700;padding-bottom:15px}
 .single .hentry-middle{width:460px;float:right}
 .single .wide{padding-top:15px}
 .single .wide img{max-width:620px;display:block}
@@ -195,7 +195,7 @@ table{border-collapse:collapse;border-spacing:0}
 .loop{width:620px;overflow:hidden;position:relative;margin-bottom:30px}
 .loop .hentry .post-meta{font-size:12px;color:orange;margin-bottom:4px}
 .loop .hentry h2{font-size:1.9em;font-weight:700;color:#444;margin-bottom:8px}
-.loop .hentry p{font-size:1.4em;line-height:1.4;color:#444: margin-top15px;}
+.loop .hentry p{font-size:1.4em;line-height:1.4;color:#444; margin-top:15px;}
 .list .hentry{width:620px;border-top:1px solid #e8dfd4;float:none;padding:20px 0}
 .list .hentry .post-thumb img{display:block;width:300px;height:180px;float:left;margin:0 20px 0 0}
 .grid .hentry{width:300px;border-top:1px solid #e8dfd4;margin-right:20px;float:left;padding:20px 0}
@@ -388,7 +388,7 @@ a img,#top-menu ul li.first,.top-content-adplace .unspoken-banner:hover{border:n
 .catlist,.page-template-template-tags-php .hentry-content .column{width:140px;float:left;margin-right:20px}
 .catlist-item-date,.recommended-item p{font-size:10px;color:#968268;margin-bottom:3px}
 .categories .first,.page-template .hentry-content{padding-top:0}
-.video-item p,.single .hentry-meta-data,.page .hentry-meta-data{font-size:12px;color:#3d3239}
+.video-item p,.single .hentry-meta-data,.page .hentry-meta-data{font-size:13px;color:orange;}
 .videolist .prev:hover,.videolist .next:hover,#mainposts .prev:hover,#mainposts .next:hover{background-color:#f86b11}
 .hentry-content h1,.hentry-content h2,.hentry-content h3,.hentry-content h4,.hentry-content h5,.hentry-content h6,.comment-text h1,.comment-text h2,.comment-text h3,.comment-text h4,.comment-text h5,.comment-text h6{font-weight:400;margin-bottom:15px}
 .hentry-content h4,.comment-text h2{font-size:18px}
