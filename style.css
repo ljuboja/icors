@@ -452,7 +452,7 @@ animation-duration: .5s;
 -o-animation-fill-mode: both;
 animation-fill-mode: both;
 }
-.slideDown{position:fixed;z-index: 12;background-color: white;opacity: .9;border-bottom: 5px solid #444;
+.slideDown{position:fixed;z-index: 12;background-color: white;opacity: .95;border-bottom: 5px solid #444;
   width: 948px;
   
   left: 50%;
