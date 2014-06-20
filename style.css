@@ -349,9 +349,9 @@ a.rsswidget img{vertical-align:-1px}
 #voodoo-reg{width:960px;padding-bottom:3px;margin:0 auto}
 #voodoo-reg a{text-transform:uppercase;color:#00ACFF}
 #voodoo-reg a:hover{text-transform:uppercase;text-decoration:underline;color:#137B89}
-ul#menu-top-menu li#menu-item-20135{color:white:font-weight:bold;background:#FECA20;display:block;padding:5px}
+ul#menu-top-menu li#menu-item-20135{color:white;font-weight:bold;background:#FECA20;display:block;padding:5px}
 ul#menu-top-menu li#menu-item-20135 a{color:#000;font-weight:700}
-a[href$=.rar]{padding-left:32px;background:url(icons/rar.png) no-repeat center left;float:left;margin-bottom:45px;margin-right:2px}
+/*a[href$=.rar]{padding-left:32px;background:url(icons/rar.png) no-repeat center left;float:left;margin-bottom:45px;margin-right:2px}*/
 p#breadcrumbs{margin-top:-14px;padding-bottom:17px}
 .mowidget{background-color:#f7df96}
 .marquee{width:750px;overflow:hidden;white-space:nowrap;box-sizing:border-box;animation:marquee 50s linear infinite;margin:0 auto}
@@ -462,4 +462,4 @@ animation-fill-mode: both;
 -ms-transform: translateY(-100%);
 transform: translateY(-100%);}
 .headroom--top{position:relative;background-color: white;}
-.headroom--not--color:white;
+.headroom--not{color:white;}
