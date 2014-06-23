@@ -79,6 +79,19 @@ $('marquee').marquee(optionalClass);
 
                     <?php wp_nav_menu(array('menu' => __('Top menu', 'unspoken'), 'theme_location' => __('Top menu', 'unspoken'), 'container' => 'div', 'container_id' => 'top-menu', 'menu_class' => 'header-menu clear', 'walker' => new extended_walker())); ?>
 
+                    <p class="datum">
+                        
+                    <script type="text/javascript"><!--
+var now = new Date();
+var Weekday = new Array("Nedelja","Ponedeljak","Utorak","Sreda","Cetvrtak","Petak","Subota");
+var Month = new Array("Januar","Februar","Mart","April","Maj","Jun","Jul","Avgust","Septembar","Oktobar","Novembar","Decembar");
+document.write(Weekday[now.getDay()]+", "+Month[now.getMonth()]+" "+now.getDate()+", "+now.getFullYear());
+//--></script>
+
+
+
+                    </p>
+
                     <div class="header-searchform">
                         <form method="get" action="<?php bloginfo('url'); ?>">
                             <fieldset>

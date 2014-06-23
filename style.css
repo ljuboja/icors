@@ -14,12 +14,12 @@ table{border-collapse:collapse;border-spacing:0}
 .br{border-right:1px solid #f5f1ec}
 .nb{border:0!important}
 .focus{border-color:#f86b11!important}
-.wrapper{background-color:#fff;width:940px;border-top:3px solid #dc881d;border-bottom:3px solid #dc881d;background:#fff url(images/bg2.png) 0 0 repeat;margin:0 auto;padding:0 20px 15px}
+.wrapper{background-color:#fff;width:940px;border-bottom:3px solid #dc881d;margin:0 auto;padding:0 20px 15px}
 .middle{padding:0 0 40px}
 #content{width:620px;float:left;padding-right:9px}
 #sidebar{width:300px;float:right;padding-left:10px}
-.header-meta{background-color:#f6f6f8;height:40px;background:#fffff8 url(images/bg2.png) 0 0 repeat;margin-bottom:20px;border-radius:0 0 2px 2px;-moz-border-radius:0 0 2px 2px;-webkit-border-radius:0 0 2px 2px}
-#top-menu{width:770px;height:40px;float:left; }
+.header-meta{background-color:#f6f6f8;height:40px;/*background:#fffff8 url(images/bg2.png) 0 0 repeat*/;margin-bottom:20px;border-radius:0 0 2px 2px;-moz-border-radius:0 0 2px 2px;-webkit-border-radius:0 0 2px 2px}
+#top-menu{width:770px;height:30px;float:left; }
 #top-menu ul li{font-size:10px;position:relative;z-index:3;float:left;border-left:1px solid #444;margin:6px 0;padding:0 13px}
 #top-menu ul li a{color:black;margin:12px 0}
 #top-menu ul li.parent a{background:url(images/menu-parent.png) 100% 3px no-repeat;padding-right:15px}
@@ -29,7 +29,7 @@ table{border-collapse:collapse;border-spacing:0}
 .header-searchform{width:127px;height:27px;float:right;position:relative;background-color:#fff;border:1px solid #E8DFD4;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;margin:5px 5px 5px 0;padding:1px 7px}
 .header-searchform input{width:108px;border:0;color:#333;font:12px Arial, Helvetica, sans-serif;vertical-align:middle;margin:0 5px 0 0;padding:6px 0}
 .header-searchform button{width:11px;height:11px;border:0;position:absolute;right:7px;top:9px;background:url(images/header-searchform-button.png) 0 0 no-repeat;vertical-align:middle;cursor:pointer;margin:0;padding:0}
-.logo-header{display:block;max-width:405px;float:left}
+.logo-header{display:block;/*max-width:405px;float:left*/ position: absolute;bottom: 0;left: 300px;top:-47px;}
 .logo-header.offset{position:relative;left:0}
 .logo-header a{color:#3b3b3b;font-size:40px;font-weight:400}
 .logo-header a span{display:block;width:935px;height:120px}
@@ -464,3 +464,7 @@ transform: translateY(-100%);}
 .headroom--top{position:relative;background-color: white;}
 .headroom--not{color:white;}
 #wpshower_adplace-13 img{border: 1px solid #444; padding:3px;}
+
+.header-middle{position: relative;height: 101px;margin-bottom: 0}
+
+.datum{font-size:1.1em; color:#444;margin-left:-389px;display: inline;}
