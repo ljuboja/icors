@@ -56,9 +56,15 @@
             }
            //if ( get_option('unspoken_styles') ) echo '<style type="text/css">' . get_option('unspoken_styles') . '</style>';
             ?>
+
+ <script type="text/javascript">          
        
-
-
+function popUp(URL) {
+day = new Date();
+id = day.getTime();
+eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=500,height=350,left = 650,top = 305');");
+}
+</script> 
 
 <!--<script type='text/javascript' src='http://www.ico.rs/wp-content/themes/unspoken/lib/js/marq.js'></script>-->
 <!--<script language="JavaScript">
@@ -76,6 +82,8 @@ $('marquee').marquee(optionalClass);
 
             <div class="header">
                 <div class="header-meta">
+
+                    <a class="live" href="javascript:popUp('radio-odzaci-player.html')">Uživo</a>
 
                     <?php wp_nav_menu(array('menu' => __('Top menu', 'unspoken'), 'theme_location' => __('Top menu', 'unspoken'), 'container' => 'div', 'container_id' => 'top-menu', 'menu_class' => 'header-menu clear', 'walker' => new extended_walker())); ?>
 
