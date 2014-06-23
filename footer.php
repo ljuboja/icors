@@ -89,7 +89,7 @@ headroom.init();
 jQuery(document).ready(function() {
   jQuery.simpleWeather({
     woeid: '', //2357536
-    location: 'Odzaci,Zapad, Serbia',
+    location: 'Odzaci,Zapad',
     unit: 'c',
     success: function(weather) {
       html = '<h2><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>';

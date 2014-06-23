@@ -513,12 +513,17 @@ padding: 6px 3px 0 6px;}
 
 
 @font-face {
+    
     font-family: 'weather';
-    src: url('https://dl.dropboxusercontent.com/u/2086809/weatherfont/artill_clean_icons-webfont.eot');
-    src: url('https://dl.dropboxusercontent.com/u/2086809/weatherfont/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://dl.dropboxusercontent.com/u/2086809/weatherfont/artill_clean_icons-webfont.woff') format('woff'),
-         url('https://dl.dropboxusercontent.com/u/2086809/weatherfont/artill_clean_icons-webfont.ttf') format('truetype'),
-         url('https://dl.dropboxusercontent.com/u/2086809/weatherfont/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    src: url('fonts/artill_clean_icons-webfont.eot');
+    src: url('fonts/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/artill_clean_icons-webfont.woff') format('woff'),
+         url('fonts/artill_clean_icons-webfont.ttf') format('truetype'),
+         url('fonts/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+
     font-weight: normal;
     font-style: normal;
 }
@@ -526,10 +531,10 @@ padding: 6px 3px 0 6px;}
 i {
   color: #444;
   font-family: weather;
-  font-size: 110px;
+  font-size: 130px;
   font-weight: normal;
   font-style: normal;
-  line-height: 1.0;
+  /*line-height: 1.0;*/
   float: left;
 }
 

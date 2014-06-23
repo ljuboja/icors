@@ -85,7 +85,7 @@ $('marquee').marquee(optionalClass);
             <div class="header">
                 <div class="header-meta">
 
-                    <a class="live" href="javascript:popUp('radio-odzaci-player.html')">Uživo</a>
+                    <a class="live" href="javascript:popUp('/radio-odzaci-player.html')">Uživo</a>
 
                     <?php wp_nav_menu(array('menu' => __('Top menu', 'unspoken'), 'theme_location' => __('Top menu', 'unspoken'), 'container' => 'div', 'container_id' => 'top-menu', 'menu_class' => 'header-menu clear', 'walker' => new extended_walker())); ?>
 
