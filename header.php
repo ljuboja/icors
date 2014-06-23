@@ -100,14 +100,7 @@ document.write(Weekday[now.getDay()]+", "+Month[now.getMonth()]+" "+now.getDate(
 
                     </p>
 
-                    <div class="header-searchform">
-                        <form method="get" action="<?php bloginfo('url'); ?>">
-                            <fieldset>
-                                <input type="text" id="s" name="s" onfocus="if(this.value=='<?php _e( 'Search', 'unspoken' );?>') this.value='';" onblur="if(this.value=='') this.value='<?php _e( 'Search', 'unspoken' );?>';" value="<?php _e( 'Pretraga', 'unspoken' );?>" />
-                                <button type="submit"></button>
-                            </fieldset>
-                        </form>
-                    </div>
+                   
                 </div>
 
                 <div class="header-middle clear">
@@ -129,6 +122,14 @@ document.write(Weekday[now.getDay()]+", "+Month[now.getMonth()]+" "+now.getDate(
                                 ?>
                             <?php } ?>
                         </a>
+                    </div>
+                     <div class="header-searchform">
+                        <form method="get" action="<?php bloginfo('url'); ?>">
+                            <fieldset>
+                                <input type="text" id="s" name="s" onfocus="if(this.value=='<?php _e( 'Search', 'unspoken' );?>') this.value='';" onblur="if(this.value=='') this.value='<?php _e( 'Search', 'unspoken' );?>';" value="<?php _e( 'Pretraga', 'unspoken' );?>" />
+                                <button type="submit"></button>
+                            </fieldset>
+                        </form>
                     </div>
                     <div class="header-adplace">
                         <?php if ( !dynamic_sidebar( 'header-widget-area' ) ) ?>

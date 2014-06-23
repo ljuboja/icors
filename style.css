@@ -27,7 +27,7 @@ table{border-collapse:collapse;border-spacing:0}
 #top-menu ul.sub-menu a{display:block;color:#fff;background:none!important;white-space:nowrap;padding-right:0!important;margin:0}
 #top-menu ul.sub-menu li{border-left:none;float:none;line-height:2;margin:0}
 .header-searchform{width:187px;height:27px;float:right;position:relative;background-color:#fff;border:1px solid #E8DFD4;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;margin:56px 5px 5px 0;padding:1px 7px}
-.header-searchform input{width:108px;border:0;color:#333;font:12px Arial, Helvetica, sans-serif;vertical-align:middle;margin:0 5px 0 0;padding:6px 0}
+.header-searchform input{width:156px;border:0;color:#333;font:12px Arial, Helvetica, sans-serif;vertical-align:middle;margin:0 5px 0 0;padding:6px 0}
 .header-searchform button{width:11px;height:11px;border:0;position:absolute;right:7px;top:9px;background:url(images/header-searchform-button.png) 0 0 no-repeat;vertical-align:middle;cursor:pointer;margin:0;padding:0}
 .logo-header{display:block;/*max-width:405px;float:left*/ position: absolute;bottom: 0;left: 300px;top:-47px;}
 .logo-header.offset{position:relative;left:0}
