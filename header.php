@@ -35,6 +35,8 @@
         <?php
 			wp_enqueue_script( 'jquery' );
             wp_enqueue_script( 'jcarousellite', get_template_directory_uri() . '/lib/js/jcarousellite_1.0.1_mod.js', 'jquery', false );
+            wp_enqueue_script( 'simplew', get_template_directory_uri() . '/lib/js/jquery.simpleWeather.min.js', 'jquery', false );
+
             wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/lib/js/fancybox/jquery.fancybox-1.3.4.pack.js', 'jquery', false );
             wp_enqueue_script( 'script', get_template_directory_uri() . '/lib/js/scripts.js', 'jquery', false );
             if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' );
@@ -102,6 +104,8 @@ document.write(Weekday[now.getDay()]+", "+Month[now.getMonth()]+" "+now.getDate(
 
                    
                 </div>
+
+                <div id="weather"></div>
 
                 <div class="header-middle clear">
                     <div class="logo-header <?php if ( !get_option('unspoken_logo_top') && !get_option('unspoken_logo_text') ) echo 'offset' ?>">
