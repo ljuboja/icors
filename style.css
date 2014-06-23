@@ -528,7 +528,7 @@ padding: 6px 3px 0 6px;}
     font-style: normal;
 }
 
-i {
+ i {
   color: #444;
   font-family: weather;
   font-size: 130px;
@@ -538,51 +538,51 @@ i {
   float: left;
 }
 
-.icon-0:before { content: ":"; }
-.icon-1:before { content: "p"; }
-.icon-2:before { content: "S"; }
-.icon-3:before { content: "Q"; }
-.icon-4:before { content: "S"; }
-.icon-5:before { content: "W"; }
-.icon-6:before { content: "W"; }
-.icon-7:before { content: "W"; }
-.icon-8:before { content: "W"; }
-.icon-9:before { content: "I"; }
-.icon-10:before { content: "W"; }
-.icon-11:before { content: "I"; }
-.icon-12:before { content: "I"; }
-.icon-13:before { content: "I"; }
-.icon-14:before { content: "I"; }
-.icon-15:before { content: "W"; }
-.icon-16:before { content: "I"; }
-.icon-17:before { content: "W"; }
-.icon-18:before { content: "U"; }
-.icon-19:before { content: "Z"; }
-.icon-20:before { content: "Z"; }
-.icon-21:before { content: "Z"; }
-.icon-22:before { content: "Z"; }
-.icon-23:before { content: "Z"; }
-.icon-24:before { content: "E"; }
-.icon-25:before { content: "E"; }
-.icon-26:before { content: "3"; }
-.icon-27:before { content: "a"; }
-.icon-28:before { content: "A"; }
-.icon-29:before { content: "a"; }
-.icon-30:before { content: "A"; }
-.icon-31:before { content: "6"; }
-.icon-32:before { content: "1"; }
-.icon-33:before { content: "6"; }
-.icon-34:before { content: "1"; }
-.icon-35:before { content: "W"; }
-.icon-36:before { content: "1"; }
-.icon-37:before { content: "S"; }
-.icon-38:before { content: "S"; }
-.icon-39:before { content: "S"; }
-.icon-40:before { content: "M"; }
-.icon-41:before { content: "W"; }
-.icon-42:before { content: "I"; }
-.icon-43:before { content: "W"; }
-.icon-44:before { content: "a"; }
-.icon-45:before { content: "S"; }
-.icon-46:before { content: "U"; }
-.icon-47:before { content: "S"; }
+.ikon-0:before { content: ":"; }
+.ikon-1:before { content: "p"; }
+.ikon-2:before { content: "S"; }
+.ikon-3:before { content: "Q"; }
+.ikon-4:before { content: "S"; }
+.ikon-5:before { content: "W"; }
+.ikon-6:before { content: "W"; }
+.ikon-7:before { content: "W"; }
+.ikon-8:before { content: "W"; }
+.ikon-9:before { content: "I"; }
+.ikon-10:before { content: "W"; }
+.ikon-11:before { content: "I"; }
+.ikon-12:before { content: "I"; }
+.ikon-13:before { content: "I"; }
+.ikon-14:before { content: "I"; }
+.ikon-15:before { content: "W"; }
+.ikon-16:before { content: "I"; }
+.ikon-17:before { content: "W"; }
+.ikon-18:before { content: "U"; }
+.ikon-19:before { content: "Z"; }
+.ikon-20:before { content: "Z"; }
+.ikon-21:before { content: "Z"; }
+.ikon-22:before { content: "Z"; }
+.ikon-23:before { content: "Z"; }
+.ikon-24:before { content: "E"; }
+.ikon-25:before { content: "E"; }
+.ikon-26:before { content: "3"; }
+.ikon-27:before { content: "a"; }
+.ikon-28:before { content: "A"; }
+.ikon-29:before { content: "a"; }
+.ikon-30:before { content: "A"; }
+.ikon-31:before { content: "6"; }
+.ikon-32:before { content: "1"; }
+.ikon-33:before { content: "6"; }
+.ikon-34:before { content: "1"; }
+.ikon-35:before { content: "W"; }
+.ikon-36:before { content: "1"; }
+.ikon-37:before { content: "S"; }
+.ikon-38:before { content: "S"; }
+.ikon-39:before { content: "S"; }
+.ikon-40:before { content: "M"; }
+.ikon-41:before { content: "W"; }
+.ikon-42:before { content: "I"; }
+.ikon-43:before { content: "W"; }
+.ikon-44:before { content: "a"; }
+.ikon-45:before { content: "S"; }
+.ikon-46:before { content: "U"; }
+.ikon-47:before { content: "S"; }

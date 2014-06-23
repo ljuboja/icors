@@ -92,7 +92,7 @@ jQuery(document).ready(function() {
     location: 'Odzaci,Zapad',
     unit: 'c',
     success: function(weather) {
-      html = '<h2><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>';
+      html = '<h2><i class="ikon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>';
       // html += '<ul><li>'+weather.city+', '+weather.region+'</li>';
      //html += '<li class="currently">'+weather.currently+'</li>';
       // html += '<li>'+weather.alt.temp+'&deg;C</li></ul>';
