@@ -528,13 +528,13 @@ padding: 6px 3px 0 6px;}
     font-style: normal;
 }
 
- i {
+ p {
   color: #444;
   font-family: weather;
   font-size: 130px;
   font-weight: normal;
   font-style: normal;
-  /*line-height: 1.0;*/
+  display: inline;
   float: left;
 }
 
